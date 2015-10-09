@@ -1,0 +1,21 @@
+
+{
+    "name": "MarcosSegovia/Solid_example",
+    "description": "Solid-example",
+    "keywords": ["solid", "Matthias Noback", "encoders", "abstract-factory", "open-closed principle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Segovia",
+            "email": "me@marcossegovia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "MarcosSegovia\\":"src/"
+        }
+    }
+}
